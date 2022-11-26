@@ -1,2 +1,15 @@
-# Binary
-This is the official Binary from FastShard to set the Themes!
+# Documentation
+
+
+1. Set a Specific Theme
+  
+  
+    Syntax
+    ```bash
+    fastshard <theme>
+    ```
+
+    Example
+    ```bash
+    fastshard hord
+    ```

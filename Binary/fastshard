@@ -4,7 +4,7 @@ cd ~/
 
 if [ -d ".config/fastshard/$1" ]; then
   echo "🢒 $1 Theme exists"
-  cd ~/.config/fastshard/$1 && cp -r * ~/.config/
+  cd ~/.config/fastshard/$1 && sudo cp -r * ~/.config/
   sudo chmod +x ~/.config/bspwm/*
   sudo chmod +x ~/.config/bspwm/bar/*
   sudo chmod +x ~/.config/bspwm/alacritty/*

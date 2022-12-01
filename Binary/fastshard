@@ -8,7 +8,7 @@ if [ -d ".config/fastshard/$1" ]; then
   sudo chmod +x ~/.config/bspwm/*
   sudo chmod +x ~/.config/bspwm/bar/*
   sudo chmod +x ~/.config/bspwm/alacritty/*
-  sudo chmod +x ~/.config/bspwm/rofi/*
+  sudo chmod +x ~/.config/bspwm/rofi/*/*
   sudo chmod +x ~/.config/zathura/*
   sudo chmod +x ~/.config/dunst/*
   echo "🢒 $1 Has been set as the current Theme"

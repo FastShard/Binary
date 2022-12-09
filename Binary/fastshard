@@ -23,6 +23,7 @@ function set_perms {
 
 function restart_wm {
     sudo bspc wm -r
+    bspc wm -r
 }
 
 set_theme $1

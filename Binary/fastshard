@@ -18,7 +18,6 @@ function set_perms {
     sudo chmod +x ~/.config/bspwm/rofi/*/*
     sudo chmod +x ~/.config/zathura/*
     sudo chmod +x ~/.config/dunst/*
-    sudo chmod +x ~/.config/picom/*
 }
 
 function restart_wm {

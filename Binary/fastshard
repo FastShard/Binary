@@ -3,7 +3,7 @@ cd ~/
 function set_theme {
     if [ -d ".config/fastshard/$1" ]; then
         echo "🢒 $1 Theme exists"
-        cd ~/.config/fastshard/$1 && cp -r * ~/.config/
+        cd ~/.config/fastshard/$1 && sudo chmod +x * && cp -r * ~/.config/
         echo "🢒 $1 Has been set as the current Theme"
     else
         echo "🢒 Error: Theme $1 is not Installed"
@@ -18,6 +18,7 @@ function set_perms {
     sudo chmod +x ~/.config/bspwm/rofi/*/*
     sudo chmod +x ~/.config/zathura/*
     sudo chmod +x ~/.config/dunst/*
+    sudo chmod +x ~/.config/picom/*
 }
 
 function restart_wm {

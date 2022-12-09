@@ -27,5 +27,4 @@ function restart_wm {
 
 set_theme $1
 set_perms
-sleep 2s
 restart_wm
